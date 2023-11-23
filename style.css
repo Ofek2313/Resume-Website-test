@@ -243,7 +243,9 @@ html{
     .grid-container{
         margin-right: 200px;
     }
-    body{
+    
+     html, body {
+        max-width: 100%;
         overflow-x: hidden;
     }
 }
