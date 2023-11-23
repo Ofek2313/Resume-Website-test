@@ -1,0 +1,236 @@
+
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+
+
+.profile{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 400px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.info{
+    display: inline-block;
+    margin-left: 65px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.container{
+    margin-left: 350px;
+    margin-top: 150px;
+}
+.Name{
+    font-size: 45px;
+    
+    
+}
+.Role{
+    position: relative;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    bottom: 45px;
+    margin-left: 5px;
+    
+}
+.text{
+    position: relative;
+    bottom: 35px;
+    left: 5px;
+    font-weight: bold;
+}
+.buttons{
+    
+    
+    
+    margin-left: 320px;
+   
+    
+}
+.button{
+    background-color: rgb(50, 50, 50);
+    border: none;
+    padding: 5px;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(218, 218, 218);
+    
+    
+}
+.button:hover{
+    cursor: pointer;
+   
+    
+}
+.c{
+    margin-left: 200px;
+}
+@media(max-width:1430px){
+    
+    .container{
+        margin-left: 20px;
+    }
+    .grid-container{
+        position: relative;
+        right: 200px;
+
+    }
+}
+@media(max-width:1075px){
+    
+    .container{
+        text-align: center;
+    }
+    .profile{
+        margin-left: 45px;
+    }
+    .buttons{
+        position: relative;
+        right: 150px;
+    }
+    .c{
+        margin-left: 50px;
+
+    }
+    .grid-container{
+        position: relative;
+        left: 5px;
+        
+        gap: 200px;
+        text-align: center;
+        bottom: 400px;
+    }
+    
+}
+    
+ 
+@media(max-width:700px){
+    .info{
+        position: relative;
+        right: 25px;
+    }
+    .profile{
+        margin-right: 40px;
+    }
+    .c{
+        margin-left: 0px;
+
+    }
+    .buttons{
+       position: relative;
+       right: 180px;
+    }
+    
+}
+.grid-container{
+    margin-top: 125px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-left: 400px;
+    position: relative;
+    bottom: 150px;
+    
+}
+
+.Block1{
+    
+    
+    grid-row-start: 2;
+    
+    grid-column-start: 2;
+    margin-right: 4;
+}
+.Block2{
+    
+    
+    grid-row-start: 2;
+    
+    
+    grid-column-start: 1;
+    
+}
+.Block3{
+    
+    
+    grid-row-start: 3;
+    
+    
+    grid-column-start: 1;
+    
+}
+.Block4{
+    
+    
+    grid-row-start: 3;
+    
+    
+    grid-column-start: 2;
+    
+}
+.python{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    right: 5px;
+}
+.html{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    right: 5px;
+}
+.c3{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    right: 5px;
+}
+.js{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    right: 5px;
+    
+}
+.footer{
+    text-align: center;
+    
+    font-family: 'Oswald', sans-serif;  
+    background-color: turquoise;
+    height: 300px;
+    padding-top: 150px;
+}
+.Call{
+    font-size: 35px;
+}
+.job{
+    font-size: 25px;
+    color: rgb(57, 57, 57);
+}
+.email{
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+}
+.up{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+}

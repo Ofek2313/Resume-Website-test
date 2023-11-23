@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>Resume</title>
+      <script>
+         function ScrollToButton(){
+            
+            window.scroll(0,1500)
+         }
+         function ScrollToInfo(){
+            window.scroll(0,500)
+         }
+         function ScrollUp(){
+            if(window.screenY>100){
+                window.scroll(0,0)
+            }
+         }
+      </script>
+</head>
+<body>
+    <div class="container">
+        <div class="profile"></div>
+        <div class="info">
+            
+            <h1 class="Name">Ofek Cohen</h1>
+            <h2 class="Role">Full-Stack Developer</h2>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed in nibh nunc.<br>
+                Integer dapibus, nunc non vulputate aliquam, lectus augue aliquet ipsum,<br>
+                 et suscipit erat diam a nisi. Ut porttitor blandit posuere. Mauris auctor tempus velit,
+                 <br> sed luctus risus bibendum lacinia. Curabitur sit amet sagittis tellus. Donec at sollicitudin tellus. </p>
+        </div>
+        <div class="buttons">
+        <button class="button a " onclick="ScrollToButton()">Contact</button>
+        <button class="button c" onclick="ScrollToInfo()" >More Info</button>
+        </div>
+
+
+    </div>
+
+    <div class="grid-container">
+        <div class="Block1"><img src="images/Python-logo-notext.svg.png" class="python">Python<p>Sed in nibh nunc.<br>
+            Integer dapibus, nunc non vulputate aliquam, lectus augue aliquet ipsum,<br>
+             et suscipit erat diam a nisi. Ut porttitor blandit posuere. Mauris auctor tempus velit,
+             <br> sed luctus risus bibendum lacinia. Curabitur sit amet sagittis tellus. Donec at sollicitudin tellus.</p></div>
+        <div class="Block2"><img src="images/HTML5_logo_and_wordmark.svg.png" class="html">HTML & CSS<p>Sed in nibh nunc.<br>
+            Integer dapibus, nunc non vulputate aliquam, lectus augue aliquet ipsum,<br>
+             et suscipit erat diam a nisi. Ut porttitor blandit posuere. Mauris auctor tempus velit,
+             <br> sed luctus risus bibendum lacinia. Curabitur sit amet sagittis tellus. Donec at sollicitudin tellus.</p></div>
+        <div class="Block3"><img src="images/Logo_C_sharp.svg.png" class="c3">C#<p>Sed in nibh nunc.<br>
+            Integer dapibus, nunc non vulputate aliquam, lectus augue aliquet ipsum,<br>
+             et suscipit erat diam a nisi. Ut porttitor blandit posuere. Mauris auctor tempus velit,
+             <br> sed luctus risus bibendum lacinia. Curabitur sit amet sagittis tellus. Donec at sollicitudin tellus.</p></div>
+        <div class="Block4"><img src="images/JavaScript-logo.png" class="js">JavaScript<p>Sed in nibh nunc.<br>
+            Integer dapibus, nunc non vulputate aliquam, lectus augue aliquet ipsum,<br>
+             et suscipit erat diam a nisi. Ut porttitor blandit posuere. Mauris auctor tempus velit,
+             <br> sed luctus risus bibendum lacinia. Curabitur sit amet sagittis tellus. Donec at sollicitudin tellus.</p></div>
+    </div>
+   
+    <div class="footer">
+        <div class="Call">If You need A website built for you</div>
+        <div class="job"> I can get the job done</div>
+        <div class="email">ofekcohen1981@gmail.com</div>
+       
+    </div>
+
+    <button class="up" onclick="ScrollUp()">Scroll up</button>
+
+ 
+
+
+
+
+
+    
+</body>
+</html>
