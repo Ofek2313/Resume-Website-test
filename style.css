@@ -74,63 +74,7 @@ html{
 .c{
     margin-left: 200px;
 }
-@media(max-width:1430px){
-    
-    .container{
-        margin-left: 20px;
-    }
-    .grid-container{
-        position: relative;
-        right: 200px;
 
-    }
-}
-@media(max-width:1075px){
-    
-    .container{
-        text-align: center;
-    }
-    .profile{
-        margin-left: 45px;
-    }
-    .buttons{
-        position: relative;
-        right: 150px;
-    }
-    .c{
-        margin-left: 50px;
-
-    }
-    .grid-container{
-        position: relative;
-        left: 5px;
-        
-        gap: 200px;
-        text-align: center;
-        bottom: 400px;
-    }
-    
-}
-    
- 
-@media(max-width:700px){
-    .info{
-        position: relative;
-        right: 25px;
-    }
-    .profile{
-        margin-right: 40px;
-    }
-    .c{
-        margin-left: 0px;
-
-    }
-    .buttons{
-       position: relative;
-       right: 180px;
-    }
-    
-}
 .grid-container{
     margin-top: 125px;
     display: grid;
@@ -233,4 +177,73 @@ html{
     width: 50px;
     bottom: 0;
     right: 0;
+}
+@media(max-width:1430px){
+    
+    .container{
+        margin-left: 20px;
+    }
+    .grid-container{
+        position: relative;
+        right: 200px;
+
+    }
+}
+@media(max-width:1075px){
+    
+    .container{
+        text-align: center;
+    }
+    .profile{
+        margin-left: 45px;
+    }
+    .buttons{
+        position: relative;
+        right: 150px;
+    }
+    .c{
+        margin-left: 50px;
+
+    }
+    .grid-container{
+        position: relative;
+        left: 5px;
+        
+        gap: 200px;
+        text-align: center;
+        bottom: 400px;
+    }
+    
+}
+    
+ 
+@media(max-width:700px){
+    .info{
+        position: relative;
+        left: 75px;
+        margin-left: 100px;
+    }
+    .profile{
+       
+        position: relative;
+        left: 100px;
+        
+        
+    }
+    .c{
+        margin-left: 0px;
+
+    }
+    .buttons{
+       position: relative;
+       
+      
+       padding-left: 105px;
+    }
+    .grid-container{
+        margin-right: 200px;
+    }
+    body{
+        overflow-x: hidden;
+    }
 }
