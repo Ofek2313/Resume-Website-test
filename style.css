@@ -220,13 +220,12 @@ html{
 @media(max-width:700px){
     .info{
         position: relative;
-        left: 75px;
-        margin-left: 100px;
+        right: 30px;
     }
     .profile{
        
         position: relative;
-        left: 100px;
+        right: 25px;
         
         
     }
@@ -236,18 +235,22 @@ html{
     }
     .buttons{
        position: relative;
+       right: 225px;
        
       
-       padding-left: 105px;
+       
     }
     .grid-container{
         position: relative;
         margin: 0;
         margin-left: 50px;
     }
-    
-     html, body {
+    html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
+    .container{
+        margin-right:100px;
+    }
+   
 }
