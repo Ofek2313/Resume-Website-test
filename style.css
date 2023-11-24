@@ -251,7 +251,7 @@ html{
     }
      .container{
         position: relative;
-        left: 75px;
+        right:25px;
     }
    
 }
