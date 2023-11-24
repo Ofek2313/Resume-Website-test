@@ -255,12 +255,18 @@ html{
        
     }
     .b{
-        position: absolute;
-        right: 10px;
+        position: relative;
+        left: 50px;
+        margin-left: 20px;
+        
 
     }
     .a{
         position: relative;
-        right: 10px;
+        left: 50px;
+        margin-right: 20px;
+        
+        
     }
+}
 }
