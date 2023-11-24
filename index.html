@@ -12,18 +12,42 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <title>Resume</title>
       <script>
-         function ScrollToButton(){
+         
+         
+         let scroll;
+         
+         let query = window.matchMedia("(max-width:700px)");
+        
             
-            window.scroll(0,1500)
+         
+        
+         
+         function ScrollToBottom(){
+            if(query.matches){
+                window.scroll(0,4000)
+            }
+            else{
+                window.scroll(0,1500)
+            }
+            
+
          }
          function ScrollToInfo(){
-            window.scroll(0,500)
+            if(query.matches){
+                window.scroll(0,1200)
+            }
+            else{
+                window.scroll(0,500)
+            }
+            
          }
          function ScrollUp(){
             
             window.scroll(0,0)
             
          }
+         
+         
       </script>
 </head>
 <body>
@@ -40,12 +64,19 @@
                  <br> sed luctus risus bibendum lacinia. Curabitur sit amet sagittis tellus. Donec at sollicitudin tellus. </p>
         </div>
         <div class="buttons">
-        <button class="button a " onclick="ScrollToButton()">Contact</button>
-        <button class="button c" onclick="ScrollToInfo()" >More Info</button>
+
+        
+        <button class="button a " onclick="ScrollToInfo()">More Info</button>
+        <button class="button b" onclick="ScrollToBottom()">Contact</button>
         </div>
+        
+        
 
 
     </div>
+    
+    
+    
 
     <div class="grid-container">
         <div class="Block1"><img src="images/Python-logo-notext.svg.png" class="python">Python<p>Sed in nibh nunc.<br>
