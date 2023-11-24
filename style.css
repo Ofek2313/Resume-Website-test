@@ -249,8 +249,9 @@ html{
         max-width: 100%;
         overflow-x: hidden;
     }
-    .container{
-        margin-right:150px;
+     .container{
+        position: relative;
+        left: 75px;
     }
    
 }
