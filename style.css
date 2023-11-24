@@ -234,7 +234,8 @@ html{
 
     }
     .buttons{
-       position: relative;
+        z-index: 50;
+      
        
        
       
