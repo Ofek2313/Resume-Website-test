@@ -62,7 +62,10 @@ html{
     height: 45px;
     border-radius: 5px;
     font-weight: bold;
-    color: rgb(218, 218, 218);
+    color: rgb(218, 218, 218); 
+    z-index: 50;
+    margin-left: 100px;
+    
     
     
 }
@@ -71,10 +74,13 @@ html{
    
     
 }
-.c{
-    margin-left: 200px;
-}
 
+.buttons{
+    position: relative;
+    right: 100px;
+    
+}
+    
 .grid-container{
     margin-top: 125px;
     display: grid;
@@ -189,7 +195,7 @@ html{
 
     }
 }
-@media(max-width:1075px){
+@media(max-width:1200px){
     
     .container{
         text-align: center;
@@ -197,14 +203,8 @@ html{
     .profile{
         margin-left: 45px;
     }
-    .buttons{
-        position: relative;
-        right: 150px;
-    }
-    .c{
-        margin-left: 50px;
-
-    }
+    
+   
     .grid-container{
         position: relative;
         left: 5px;
@@ -212,6 +212,10 @@ html{
         gap: 200px;
         text-align: center;
         bottom: 400px;
+    }
+    .buttons{
+        margin-right: 150px;
+        z-index: 50;
     }
     
 }
@@ -229,18 +233,8 @@ html{
         
         
     }
-    .c{
-        margin-left: 0px;
-
-    }
-    .buttons{
-        z-index: 50;
-      
-       
-       
-      
-       
-    }
+    
+    
     .grid-container{
         position: relative;
         margin: 0;
@@ -250,9 +244,23 @@ html{
         max-width: 100%;
         overflow-x: hidden;
     }
-     .container{
-        position: relative;
-        right:20px;
+    .buttons{
+    
+        margin:0;
+        
+        
+       
+       
+        
+       
     }
-   
+    .b{
+        position: absolute;
+        right: 10px;
+
+    }
+    .a{
+        position: relative;
+        right: 10px;
+    }
 }
